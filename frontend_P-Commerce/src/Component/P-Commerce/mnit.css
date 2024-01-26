@@ -1,0 +1,72 @@
+/* Update your mnit.css with the following styles */
+
+/* Container for the cards */
+.Complete {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Individual Card Styling */
+.C-rd {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  max-width: 300px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.C-rd:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styles */
+.c-img {
+  width: 100px !important;
+  height: 100px;
+  border-radius: 50%;
+  object-fit:contain;
+  margin: 0 auto 15px;
+  border: 5px solid #fff;
+}
+
+/* Person's Name */
+.c-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* Description */
+.c-desc {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* Email Styles */
+.c-email {
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.email-img {
+  width: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+

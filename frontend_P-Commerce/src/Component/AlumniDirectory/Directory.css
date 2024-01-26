@@ -1,0 +1,12 @@
+.Container{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;
+    
+}
+
+.text_banao{
+    border:1px solid black;
+    text-align: center;
+}

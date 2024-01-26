@@ -1,0 +1,109 @@
+.container {
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width:770px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr !important;
+    color: white;
+    background-color: #212121;
+    height: 100%;
+    margin-bottom: 0 !important;
+    width: 100%;
+  }
+  
+
+  
+  .social-media-links {
+    list-style: none !important;
+    display: grid !important;
+    grid-template-columns: repeat(4, 0.1fr) !important;
+    margin: 0px !important;
+    text-align:left;
+    gap: 13px;
+  }
+  
+  .social-media-img {
+    margin-left: 0px !important;
+  }
+  
+  .footer-app-link {
+    
+    color: white;
+  }
+  .social-media-links a {
+    color: white;
+    list-style: none !important;
+  }
+  
+  .social-media-links a:hover {
+    color: lightgray;
+  }
+  
+  .container h3 {
+    font-size: 30px;
+    color: darkgoldenrod;
+    font-family: inherit;
+    text-align: center;
+    margin-top: 20px !important;
+    /* vertical-align: middle;  Add this line to align h3 elements vertically  */
+  }
+
+  .about , .contact , .social{
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container p {
+    font-size: 16px;
+    font-family: inherit;
+  }
+  
+}
+
+@media  screen and (max-width:768px) {
+  .footer {
+    display: grid;
+    grid-template-rows: .5fr 1fr 1fr !important;
+    color: white;
+    background-color: #212121;
+    height: 100%;
+    margin-bottom: 0 !important;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .social-media-links {
+    list-style: none !important;
+    display: grid !important;
+    grid-template-columns: repeat(4, 0.1fr) !important;
+    margin-left: 0px !important;
+  }
+  
+  .footer-app-link {
+    text-decoration: none;
+    color: white;
+  }
+  .social-media-links a {
+    color: white;
+    list-style: none !important;
+  }
+  
+  .social-media-links a:hover {
+    color: lightgray;
+  }
+  
+  .container h3 {
+    font-size: 30px;
+    color: darkgoldenrod;
+    font-family: inherit;
+  }
+  
+  .container p {
+    font-size: 16px;
+    font-family: inherit;
+  }
+  
+}

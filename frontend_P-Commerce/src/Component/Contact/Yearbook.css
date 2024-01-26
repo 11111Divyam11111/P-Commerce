@@ -1,0 +1,237 @@
+@media screen and (min-width: 800px) and (max-width:1300px) {
+  /* Yearbook.css */
+
+  .folders {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+    place-items: center;
+  }
+  .line-container {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  #btn-hai {
+    color: black;
+  }
+
+  #line {
+    width: 70%;
+    opacity: 0.3;
+    height: 1.2px;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  .folder {
+    text-align: center;
+  }
+
+  .folder img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .folder .MuiButton-root {
+    margin-top: 10px;
+    display: grid;
+  }
+
+  .folder .MuiButton-root.active {
+    background-color: #f9f9f9 !important;
+    color: darkgoldenrod !important;
+  }
+
+  .CircularProgress {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+  }
+
+  .card-columns {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .card-ka-container {
+    width: 25%; /* Reduce the width to make cards smaller */
+    height: fit-content;
+    margin: 10px; /* Adjust the margin for spacing between cards */
+    display: inline-block;
+    vertical-align: top;
+    place-items: center;
+    align-items: center;
+  }
+
+  .card-ka-container:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Reduce shadow size and opacity on hover */
+  }
+}
+
+@media screen and (min-width:1301px) {
+  /* Yearbook.css */
+
+  .folders {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+    place-items: center;
+  }
+  .line-container {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  #btn-hai {
+    color: black;
+  }
+
+  #line {
+    width: 70%;
+    opacity: 0.3;
+    height: 1.2px;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  .folder {
+    text-align: center;
+  }
+
+  .folder img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .folder .MuiButton-root {
+    margin-top: 10px;
+    display: grid;
+  }
+
+  .folder .MuiButton-root.active {
+    background-color: #f9f9f9 !important;
+    color: darkgoldenrod !important;
+  }
+
+  .CircularProgress {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+  }
+
+  .card-columns {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .card-ka-container {
+    width: 18%; /* Reduce the width to make cards smaller */
+    height: fit-content;
+    margin: 10px; /* Adjust the margin for spacing between cards */
+    display: inline-block;
+    vertical-align: top;
+    place-items: center;
+    align-items: center;
+  }
+
+  .card-ka-container:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Reduce shadow size and opacity on hover */
+  }
+}
+
+
+@media screen and (max-width: 799px) {
+  /* Yearbook.css */
+
+  .folders {
+    display: grid;    
+    padding: 20px;
+    place-items: center;
+  }
+  .line-container {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  #btn-hai {
+    color: black;
+  }
+
+  #line {
+    width: 70%;
+    opacity: 0.3;
+    height: 1.2px;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  .folder {
+    text-align: center;
+  }
+
+  .folder img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .folder .MuiButton-root {
+    margin-top: 10px;
+    display: grid;
+  }
+
+  .folder .MuiButton-root.active {
+    background-color: #f9f9f9 !important;
+    color: darkgoldenrod !important;
+  }
+
+  .CircularProgress {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+  }
+
+  .card-columns {
+    display: grid;
+  }
+
+  .card-ka-container {
+    width: 100%; /* Reduce width further for smaller screens */
+    height: fit-content;
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .card-ka-container:hover {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Smaller shadow on hover for smaller screens */
+  }
+}
+
+
+.card-ka-container {
+  width: calc(20% - 20px); /* Use calc to consider margin */
+  height: fit-content;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  place-items: center;
+  align-items: center;
+  box-sizing: border-box; /* Include padding and border in the width */
+  transition: box-shadow 0.3s; /* Add transition for smoother hover effect */
+
+  /* Add a responsive grid layout for larger screens */
+  @media screen and (min-width: 1600px) {
+      width: calc(16.66% - 20px); /* Adjust width for a 6-column layout */
+  }
+
+  @media screen and (min-width: 1800px) {
+      width: calc(14.28% - 20px); /* Adjust width for a 7-column layout */
+  }
+
+  @media screen and (max-width: 1300px) {
+      width: calc(25% - 20px); /* Adjust width for a 4-column layout on smaller screens */
+  }
+}
+
+.card-ka-container:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
